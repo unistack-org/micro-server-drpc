@@ -13,7 +13,6 @@ import (
 	"strings"
 	"sync"
 	"time"
-
 	// nolint: staticcheck
 
 	"github.com/unistack-org/micro/v3/broker"
@@ -34,7 +33,7 @@ import (
 )
 
 const (
-	defaultContentType = "application/grpc+proto"
+	defaultContentType = "application/drpc+proto"
 )
 
 /*
@@ -46,7 +45,7 @@ type grpcServerReflection struct {
 
 type grpcServer struct {
 	handlers    map[string]server.Handler
-	srv         *grpc.Server
+//	srv         *grpc.Server
 	exit        chan chan error
 	wg          *sync.WaitGroup
 	rsvc        *register.Service
