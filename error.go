@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/unistack-org/micro/v3/errors"
+	"go.unistack.org/micro/v3/errors"
 )
 
 type StatusCode uint64

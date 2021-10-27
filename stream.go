@@ -3,7 +3,7 @@ package drpc
 import (
 	"context"
 
-	"github.com/unistack-org/micro/v3/server"
+	"go.unistack.org/micro/v3/server"
 	"google.golang.org/grpc"
 )
 

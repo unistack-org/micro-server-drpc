@@ -7,12 +7,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/unistack-org/micro/v3/broker"
-	"github.com/unistack-org/micro/v3/errors"
-	"github.com/unistack-org/micro/v3/logger"
-	"github.com/unistack-org/micro/v3/metadata"
-	"github.com/unistack-org/micro/v3/register"
-	"github.com/unistack-org/micro/v3/server"
+	"go.unistack.org/micro/v3/broker"
+	"go.unistack.org/micro/v3/errors"
+	"go.unistack.org/micro/v3/logger"
+	"go.unistack.org/micro/v3/metadata"
+	"go.unistack.org/micro/v3/register"
+	"go.unistack.org/micro/v3/server"
 )
 
 type handler struct {
