@@ -3,9 +3,9 @@ package drpc
 import (
 	"io"
 
-	"github.com/unistack-org/micro/v3/codec"
-	"github.com/unistack-org/micro/v3/metadata"
-	"github.com/unistack-org/micro/v3/server"
+	"go.unistack.org/micro/v3/codec"
+	"go.unistack.org/micro/v3/metadata"
+	"go.unistack.org/micro/v3/server"
 )
 
 var _ server.Response = &rpcResponse{}

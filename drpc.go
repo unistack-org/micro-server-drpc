@@ -1,5 +1,5 @@
 // Package drpc provides a drpc server
-package drpc
+package drpc // import "go.unistack.org/micro-server-drpc/v3"
 
 import (
 	"context"
@@ -15,13 +15,13 @@ import (
 	"time"
 	// nolint: staticcheck
 
-	"github.com/unistack-org/micro/v3/broker"
-	"github.com/unistack-org/micro/v3/codec"
-	"github.com/unistack-org/micro/v3/errors"
-	"github.com/unistack-org/micro/v3/logger"
-	metadata "github.com/unistack-org/micro/v3/metadata"
-	"github.com/unistack-org/micro/v3/register"
-	"github.com/unistack-org/micro/v3/server"
+	"go.unistack.org/micro/v3/broker"
+	"go.unistack.org/micro/v3/codec"
+	"go.unistack.org/micro/v3/errors"
+	"go.unistack.org/micro/v3/logger"
+	metadata "go.unistack.org/micro/v3/metadata"
+	"go.unistack.org/micro/v3/register"
+	"go.unistack.org/micro/v3/server"
 	"golang.org/x/net/netutil"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
