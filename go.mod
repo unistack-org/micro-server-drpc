@@ -8,5 +8,5 @@ require (
 	golang.org/x/net v0.0.0-20210928044308-7d9f5e0b762b
 	google.golang.org/grpc v1.43.0
 	google.golang.org/protobuf v1.27.1
-	storj.io/drpc v0.0.27
+	storj.io/drpc v0.0.28
 )
