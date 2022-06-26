@@ -13,6 +13,7 @@ import (
 	"strings"
 	"sync"
 	"time"
+
 	// nolint: staticcheck
 
 	"go.unistack.org/micro/v3/broker"
@@ -44,8 +45,8 @@ type grpcServerReflection struct {
 */
 
 type grpcServer struct {
-	handlers    map[string]server.Handler
-//	srv         *grpc.Server
+	handlers map[string]server.Handler
+	//	srv         *grpc.Server
 	exit        chan chan error
 	wg          *sync.WaitGroup
 	rsvc        *register.Service
@@ -671,6 +672,7 @@ func (g *grpcServer) Register() error {
 		}
 		opts = append(opts, broker.SubscribeContext(subCtx))
 		opts = append(opts, broker.SubscribeAutoAck(sb.Options().AutoAck))
+		opts = append(opts, broker.SubscribeBodyOnly(sb.Options().BodyOnly))
 
 		if config.Logger.V(logger.InfoLevel) {
 			config.Logger.Infof(config.Context, "Subscribing to topic: %s", sb.Topic())
