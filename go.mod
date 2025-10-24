@@ -3,7 +3,7 @@ module go.unistack.org/micro-server-drpc/v3
 go 1.24.0
 
 require (
-	go.unistack.org/micro/v3 v3.11.46
+	go.unistack.org/micro/v3 v3.11.48
 	golang.org/x/net v0.46.0
 	google.golang.org/grpc v1.76.0
 	google.golang.org/protobuf v1.36.10
