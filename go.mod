@@ -4,8 +4,8 @@ go 1.24.0
 
 require (
 	go.unistack.org/micro/v3 v3.11.46
-	golang.org/x/net v0.46.0
-	google.golang.org/grpc v1.76.0
+	golang.org/x/net v0.46.1-0.20251013234738-63d1a5100f82
+	google.golang.org/grpc v1.77.0
 	google.golang.org/protobuf v1.36.10
 	storj.io/drpc v0.0.32
 )
