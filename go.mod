@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	go.unistack.org/micro/v3 v3.11.51
-	golang.org/x/net v0.51.0
+	golang.org/x/net v0.52.0
 	google.golang.org/grpc v1.79.1
 	google.golang.org/protobuf v1.36.11
 	storj.io/drpc v0.0.32
@@ -17,8 +17,8 @@ require (
 	github.com/matoous/go-nanoid v1.5.1 // indirect
 	github.com/zeebo/errs v1.4.0 // indirect
 	go.unistack.org/micro-proto/v3 v3.4.1 // indirect
-	golang.org/x/sys v0.41.0 // indirect
-	golang.org/x/text v0.34.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
+	golang.org/x/text v0.35.0 // indirect
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
