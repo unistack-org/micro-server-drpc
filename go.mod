@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	go.unistack.org/micro/v3 v3.11.51
 	golang.org/x/net v0.51.0
-	google.golang.org/grpc v1.79.1
+	google.golang.org/grpc v1.79.3
 	google.golang.org/protobuf v1.36.11
 	storj.io/drpc v0.0.32
 )
