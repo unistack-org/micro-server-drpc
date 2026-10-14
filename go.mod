@@ -1,6 +1,6 @@
 module go.unistack.org/micro-server-drpc/v3
 
-go 1.26.0
+go 1.27
 
 require (
 	go.unistack.org/micro/v3 v3.11.51
