@@ -5,7 +5,7 @@ go 1.27
 require (
 	go.unistack.org/micro/v3 v3.11.51
 	golang.org/x/net v0.61.0
-	google.golang.org/grpc v1.84.0
+	google.golang.org/grpc v1.85.0
 	google.golang.org/protobuf v1.36.12
 	storj.io/drpc v1.0.0
 )
